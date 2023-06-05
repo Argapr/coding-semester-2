@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+/* ul li {
+    display: flex;
+} */
+.container {
+    height: 100vh;
+}
+.container .nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    background-color: transparent;
+    height: 90px;
+    width: 93%;
+    margin: 30px;
+    cursor: pointer;
+}
+.nav .logo{
+    display: flex;
+    color: #ffff;
+}
+.nav .logo ul{
+    display: flex;
+    margin: 13px;
+}
+.nav .logo ul li a{
+    margin-left: 15px;
+    color: #ffff;
+}
+.nav .float ul{
+    display: flex;
+    margin: 13px;
+}
+.nav .float ul li {
+    margin-right: 15px;
+}
+.nav .float i {
+    size: 10px;
+}
+.content {
+    display: flex;
+}
+.content img {
+    height: 100vh;
+    width: auto;
+}
+.content .text {
+    padding-top: 250px;
+    margin-left: 40px;
+}
+.content .text h3 {
+    padding-top: 15px;
+    font-size: 30px;
+}
+.content .text p {
+    padding: 10px;
+}
+
+
+/* section 1 */
+
+.shop {
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.shop img {
+    height: 300px;
+}
+.shop p{
+    padding-top: 10px;
+}
+
+/* section 2 */
+
+.collections {
+    height: 100vh;
+}
+.collections .text {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.collections .text .b img{
+    margin-left: 10px;
+}
+.collections .favorite {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* section3 */
+
+.shoe {
+    height: 100vh;
+}
+.shoe .choice{
+    display: flex;
+    justify-content: space-evenly;
+}
+.shoe .choice p {
+    margin-top: 10px;
+}
+
+/* footer */
+
+footer {
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .a h3{
+    margin-bottom: 10px;
+}
